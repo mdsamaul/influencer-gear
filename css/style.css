@@ -7,6 +7,9 @@
 }
 
 /* header navber style  */
+.three-icon {
+  display: none;
+}
 .header-left-right {
   width: 100%;
   display: flex;
@@ -288,4 +291,61 @@ footer {
 }
 .influencer-footer-section i:hover {
   color: aqua;
+}
+/* <!-- ---------------------
+      end footer section 
+    ---------------------- --> */
+
+/* ----------------------------------------------
+ X-Small devices (portrait phones, less than 576px)
+------------------------------------------------- */
+
+@media screen and (max-width: 576px) {
+  .three-icon {
+    display: block;
+    font-size: 5vw;
+  }
+  .navber{
+    padding: 20px 20px 20px 0;
+  }
+  .header-left-right {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navber-heid {
+    display: none;
+  }
+  .influencer-text {
+    font-size: 4vw;
+    padding: 0;
+  }
+  .mobile-shop {
+    padding: 0px;
+  }
+  .mobile-shop i {
+    font-size: 4vw;
+  }
+/*-------------------
+ end navber section 
+--------------------- */
+.start-section{
+  flex-direction: column-reverse;
+  justify-content: center;
+  text-align: center;
+}
+.camera-right-site{
+  margin-left: 20%;
+}
+
+  /* checked  */
+  .heid {
+    display: none;
+  }
+}
+
+/* ----------------------------------------------
+ Medium devices (tablets, less than 992px)
+------------------------------------------------- */
+@media screen and (min-width: 577px) and (max-width: 992px) {
 }
