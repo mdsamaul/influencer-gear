@@ -329,13 +329,29 @@ footer {
   /*-------------------
  end navber section 
 --------------------- */
+.banner{
+  height: 363px;
+}
   .start-section {
     flex-direction: column-reverse;
     justify-content: center;
     text-align: center;
   }
   .camera-right-site {
-    margin-left: 20%;
+    padding-right: 0px;
+    margin-left: 0px;
+  }
+  .title-start{
+    font-size: 5vw;
+    padding: 20px 0;
+  }
+  .title-deatiels{
+    font-size: 2.2vw;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+  }
+  .start-left-site{
+    padding: 0 70px;
   }
 
   /* end banner section  */
@@ -343,7 +359,7 @@ footer {
   .logo-items-img {
     flex-wrap: wrap;
     height: 150px;
-    margin: 0 40px;
+    margin: 20px 40px;
   }
   .logo-img img {
     width: 100%;
@@ -351,46 +367,67 @@ footer {
   }
   /* end logo items  */
   /* start collection item  */
-  .collections{
+  .collections {
     margin-top: 10px;
   }
   .collections-items {
     grid-template-columns: repeat(1, 1fr);
   }
-  .collection-title{
+  .collection-title {
     font-size: 4vw;
     font-weight: 600;
     padding: 20px 0;
   }
-  .tilte, .price{
+  .tilte,
+  .price {
     font-size: 4vw;
     font-weight: 600;
   }
-  .reating i, .four-nine{
+  .reating i,
+  .four-nine {
     font-size: 2.5vw;
   }
-  .cllection-deatils{
+  .cllection-deatils {
     font-size: 2vw;
   }
-  .show{
+  .show {
     font-size: 3vw;
     padding: 15px 0;
   }
   /* end collection item  */
   /* start featre section  */
-  .feature-img-text{
+  .feature-img-text {
     flex-direction: column-reverse;
     text-align: center;
   }
-  .featured-title{
+  .featured-title {
     font-size: 5vw;
   }
-  .featured-deatils{
+  .featured-deatils {
     font-size: 2.5vw;
   }
 
-  .join-btn{
+  .join-btn {
     margin: 20px 0;
+  }
+
+  /* end feature section  */
+  /* start footer section  */
+  .footer {
+    height: 50vw;
+    justify-content: center;
+    align-content: center;
+    margin-top: -60px;
+  }
+  .influencer {
+    font-size: 4vw;
+  }
+  .copyright {
+    font-size: 2.5vw;
+    font-weight: 300;
+  }
+  .influencer-footer-section i{
+    font-size: 5vw;
   }
   /* checked  */
   .heid {
