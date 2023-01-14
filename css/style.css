@@ -163,7 +163,7 @@
 .collections-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 0 10vw;
+  padding: 0 150px;
 }
 
 .header-item {
@@ -266,7 +266,9 @@ footer {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  box-shadow: 0px 0px 30px rgb(37, 21, 68);
 }
+
 .influencer {
   color: #ffffff;
   padding: 20px 0;
@@ -329,9 +331,9 @@ footer {
   /*-------------------
  end navber section 
 --------------------- */
-.banner{
-  height: 363px;
-}
+  .banner {
+    height: 363px;
+  }
   .start-section {
     flex-direction: column-reverse;
     justify-content: center;
@@ -341,16 +343,16 @@ footer {
     padding-right: 0px;
     margin-left: 0px;
   }
-  .title-start{
+  .title-start {
     font-size: 5vw;
     padding: 20px 0;
   }
-  .title-deatiels{
+  .title-deatiels {
     font-size: 2.2vw;
     font-weight: 600;
     padding: 0 0 20px 0;
   }
-  .start-left-site{
+  .start-left-site {
     padding: 0 70px;
   }
 
@@ -372,6 +374,8 @@ footer {
   }
   .collections-items {
     grid-template-columns: repeat(1, 1fr);
+    
+  padding: 0 40px;
   }
   .collection-title {
     font-size: 4vw;
@@ -406,6 +410,10 @@ footer {
   .featured-deatils {
     font-size: 2.5vw;
   }
+  .featre-img {
+    padding: 25px;
+    box-shadow: 0px 0px 20px rgba(47, 0, 255, 0.288);
+  }
 
   .join-btn {
     margin: 20px 0;
@@ -418,7 +426,9 @@ footer {
     justify-content: center;
     align-content: center;
     margin-top: -60px;
+    box-shadow: 0px 0px 30px rgb(37, 21, 68);
   }
+
   .influencer {
     font-size: 4vw;
   }
@@ -426,12 +436,8 @@ footer {
     font-size: 2.5vw;
     font-weight: 300;
   }
-  .influencer-footer-section i{
+  .influencer-footer-section i {
     font-size: 5vw;
-  }
-  /* checked  */
-  .heid {
-    display: none;
   }
 }
 
@@ -439,4 +445,54 @@ footer {
  Medium devices (tablets, less than 992px)
 ------------------------------------------------- */
 @media screen and (min-width: 577px) and (max-width: 992px) {
+  /* navber  */
+  .influencer-text {
+    font-size: 2.8vw;
+  }
+  .navber{
+    padding: 36px 10px 0 0;
+  }
+  .navber ul li a{
+    font-size: 1.8vw;
+    font-weight: 500;
+  }
+  /* banner section  */
+  .start-left-site {
+    padding: 0 30px;
+  }
+  .title-deatiels {
+    font-size: 1.8vw;
+    padding: 10px 5px 15px 0;
+  }
+  .banner {
+    height: 300px;
+  }
+
+  /* end banner section  */
+  .collections-items {
+    grid-template-columns: repeat(2, 1fr);
+    
+  padding: 0 60px;
+  }
+
+  .show {
+    font-size: 2vw;
+  }
+  .featured-products {
+    padding: 0 20px;
+  }
+
+  /* footer section  */
+  .footer {
+    box-shadow: 0px 0px 30px rgb(37, 21, 68);
+  }
+  .featred-text {
+    padding: 0 30px;
+  }
+  .featured-title {
+    font-size: 3vw;
+  }
+  .featured-deatils {
+    font-size: 1.5vw;
+  }
 }
