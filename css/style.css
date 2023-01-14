@@ -264,28 +264,28 @@ footer {
   flex-direction: column;
   text-align: center;
 }
-.influencer{
+.influencer {
   color: #ffffff;
   padding: 20px 0;
   font-size: 2.5vw;
   font-weight: 400;
 }
-.copyright{
-  color: #D9DBE1;
+.copyright {
+  color: #d9dbe1;
   font-weight: 400;
   font-size: 1vw;
 }
-.influencer-footer-section i{
-  color: #D9DBE1;
+.influencer-footer-section i {
+  color: #d9dbe1;
   padding: 10px 10px;
   font-size: 1.5vw;
   border-radius: 40px 40px;
-  border:1px solid rgba(42, 36, 59, 0.466) ;
+  border: 1px solid rgba(42, 36, 59, 0.466);
   margin: 20px 10px;
   background-color: rgba(42, 36, 59, 0.466);
-  transition: .7s;
+  transition: 0.7s;
   cursor: pointer;
 }
-.influencer-footer-section i:hover{
-  color: #e02c6d;
+.influencer-footer-section i:hover {
+  color: aqua;
 }
