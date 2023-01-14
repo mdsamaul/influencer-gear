@@ -305,7 +305,7 @@ footer {
     display: block;
     font-size: 5vw;
   }
-  .navber{
+  .navber {
     padding: 20px 20px 20px 0;
   }
   .header-left-right {
@@ -326,18 +326,72 @@ footer {
   .mobile-shop i {
     font-size: 4vw;
   }
-/*-------------------
+  /*-------------------
  end navber section 
 --------------------- */
-.start-section{
-  flex-direction: column-reverse;
-  justify-content: center;
-  text-align: center;
-}
-.camera-right-site{
-  margin-left: 20%;
-}
+  .start-section {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+  .camera-right-site {
+    margin-left: 20%;
+  }
 
+  /* end banner section  */
+  /* start logo items  */
+  .logo-items-img {
+    flex-wrap: wrap;
+    height: 150px;
+    margin: 0 40px;
+  }
+  .logo-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* end logo items  */
+  /* start collection item  */
+  .collections{
+    margin-top: 10px;
+  }
+  .collections-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .collection-title{
+    font-size: 4vw;
+    font-weight: 600;
+    padding: 20px 0;
+  }
+  .tilte, .price{
+    font-size: 4vw;
+    font-weight: 600;
+  }
+  .reating i, .four-nine{
+    font-size: 2.5vw;
+  }
+  .cllection-deatils{
+    font-size: 2vw;
+  }
+  .show{
+    font-size: 3vw;
+    padding: 15px 0;
+  }
+  /* end collection item  */
+  /* start featre section  */
+  .feature-img-text{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .featured-title{
+    font-size: 5vw;
+  }
+  .featured-deatils{
+    font-size: 2.5vw;
+  }
+
+  .join-btn{
+    margin: 20px 0;
+  }
   /* checked  */
   .heid {
     display: none;
